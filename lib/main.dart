@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_naver_map/flutter_naver_map.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await FlutterNaverMap().init(
+      clientId: '6ud2o9nwsg',
+      onAuthFailed: (ex) {
+        print("********* 네이버맵 인증오류 : $ex *********");
+      });
   runApp(const MyApp());
 }
 

@@ -1,0 +1,40 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_naver_map (1.4.0):
+    - Flutter
+    - NMapsMap (= 3.22.1)
+  - NMapsGeometry (1.0.2)
+  - NMapsMap (3.22.1):
+    - NMapsGeometry
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_naver_map (from `.symlinks/plugins/flutter_naver_map/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - NMapsGeometry
+    - NMapsMap
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_naver_map:
+    :path: ".symlinks/plugins/flutter_naver_map/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_naver_map: 8936ea216d66ead633d52950fc542dfb5bbcd7e0
+  NMapsGeometry: 4e02554fa9880ef02ed96b075dc84355d6352479
+  NMapsMap: 09552eb050059e13b4c8fc294055760713cfdad8
+  path_provider_foundation: 2b6b4c569c0fb62ec74538f866245ac84301af46
+
+PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
+
+COCOAPODS: 1.16.2
