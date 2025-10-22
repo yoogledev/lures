@@ -49,5 +49,7 @@
 	<string>6ud2o9nwsg</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>네이버 지도를 사용하기 위해 위치 정보가 필요합니다.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs access to location when in the background.</string>
 </dict>
 </plist>
